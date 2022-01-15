@@ -85,11 +85,12 @@ font-family: 'Source Sans Pro', sans-serif;
     color: yellow;
     margin-right: 1px;
 }
-.link{
+ .link{
     width: 1100px;
     display: flex;
     justify-content: flex-end;
-}
+} 
+
 .see-more-btn{
     padding: 5px 10px;
     color: rgb(180, 53, 127);
@@ -228,7 +229,7 @@ width: 310px;
         
     }
     .link , .see-more-btn{
-        margin-right: 70px;
+        margin-right: 10px;
     }
     
 }
