@@ -155,7 +155,7 @@ button {
 .fo{
     margin-top: 50px;
     background-color: thistle;
-    height: 250px;
+    height: 200px;
 }
 .fo, .footer-info{
     width: 100%;
@@ -164,6 +164,7 @@ button {
     justify-content: center;
     align-items: center;
     line-height: 0px;
+    padding: 10px 0px;
 }
 
 
@@ -221,6 +222,14 @@ width: 310px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }  
+    .camera-idems,.link{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .link , .see-more-btn{
+        margin-right: 70px;
+    }
     
 }
 
